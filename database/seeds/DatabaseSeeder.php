@@ -13,11 +13,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(PlayerSeeder::class, false);
-        $this->call(PosSeeder::class, false);
-        $this->call(ArtifactSeeder::class, false);
-        $this->call(ItemSeeder::class, false);
-        $this->call(GameBesarSeeder::class, false);
-        $this->call(TabelGamebesSeeder::class, false);
+        //$this->call(UsersTableSeeder::class);
     }
 }
