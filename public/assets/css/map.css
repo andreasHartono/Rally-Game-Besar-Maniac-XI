@@ -1,0 +1,236 @@
+/* .bg-map {
+    text-align: center; 
+} */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.map-btn {
+    display: block;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    background-color: #82624d;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1.5px 1.5px 1px #b48e66;
+    position: absolute;
+    transition: all .3s ease-in-out;
+}
+.map-btn:hover {
+    background-color: #99735a;
+}
+
+.map-btn:focus {
+    outline: none;
+}
+
+.map-btn.full {
+    background-color: crimson;
+}
+.map-btn.waiting {
+    background-color: gold;
+}.map-btn.waiting:hover {
+    background-color: rgb(197, 170, 16);
+}
+
+.map-btn:disabled {
+    cursor: not-allowed;
+}
+
+.map-btn-gamebes {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    background-color: #82624d;
+    box-shadow: 1.5px 1.5px 1px #b48e66;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    font-size: .7em;
+    transition: all .3s;
+}
+
+.map-btn-gamebes:hover {
+    background-color: #99735a;
+}
+
+.map-btn-gamebes:disabled {
+    cursor: not-allowed;
+}
+
+.map-btn-gamebes:focus {
+    outline: none;
+}
+
+.btn-copy{
+    background: transparent;
+    color: black;
+    border: none;
+}
+
+.btn-copy:hover{
+    color: grey;
+    border: none;
+}
+
+
+.map-btn.pos2 {
+    background-color: #634b3b;
+}
+.map-btn.pos2:hover {
+    background-color: #403127;
+}
+.map-btn.pos2.full {
+    background-color: rgb(187, 20, 53);
+}
+
+
+#rallyPos1 {
+    top: 249px;
+    left: 223.5px;
+}
+#rallyPos1-2 {
+    top: 249px;
+    left: 221.5px;
+}
+
+#rallyPos2 {
+    top: 303px;
+    left: 221.5px;
+}
+#rallyPos2-2 {
+    top: 303px;
+    left: 229.5px;
+}
+
+#rallyPos3 {
+    top: 352px;
+    left: 298px;
+}
+#rallyPos3-2 {
+    top: 352px;
+    left: 296px;
+}
+
+#rallyPos4 {
+    top: 170px;
+    left: 373px;
+}
+#rallyPos4-2 {
+    top: 170px;
+    left: 391px;
+}
+
+#rallyPos5 {
+    top: 208.5px;
+    left: 350px;
+}
+#rallyPos5-2 {
+    top: 208.5px;
+    left: 368px;
+}
+
+#rallyPos6 {
+    top: 250px;
+    left: 374px;
+}
+#rallyPos6-2 {
+    top: 250px;
+    left: 392px;
+}
+
+#rallyPos7 {
+    top: 290px;
+    left: 404.5px;
+}
+#rallyPos7-2 {
+    top: 290px;
+    left: 422.5px;
+}
+
+#rallyPos8 {
+    top: 327px;
+    left: 395.5px;
+}
+#rallyPos8-2 {
+    top: 327px;
+    left: 413.5px;
+}
+
+#rallyPos9 {
+    top: 143px;
+    left: 480px;
+}
+#rallyPos9-2 {
+    top: 143px;
+    left: 488px;
+}
+
+#rallyPos10 {
+    top: 181.5px;
+    left: 450px;
+}
+#rallyPos10-2 {
+    top: 181.5px;
+    left: 468px;
+}
+
+#rallyPos11 {
+    top: 229px;
+    left: 501.5px;
+}
+#rallyPos11-2 {
+    top: 229px;
+    left: 509.5px;
+}
+
+#rallyPos12 {
+    top: 268px;
+    left: 460.5px;
+}
+#rallyPos12-2 {
+    top: 268px;
+    left: 478.5px;
+}
+
+
+#rallyPos13 {
+    top: 355.5px;
+    left: 627.5px;
+}
+#rallyPos14 {
+    top: 428.5px;
+    left: 566.5px;
+}
+#rallyPos15 {
+    top: 400.5px;
+    left: 691px;
+}
+
+#rallyGamebes{
+    top: 208px;
+    left: 618px;
+}
+
+.mapmap{
+    margin-top: 5%;
+    transform: scale(1.25);
+}
+
+.modal-header {
+    background-color: #a0583a;
+    color: #eceeca;
+}
+
+.modal-body, .modal-footer {
+    background-color: #eceeca;
+}

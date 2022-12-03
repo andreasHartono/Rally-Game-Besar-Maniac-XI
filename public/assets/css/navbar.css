@@ -1,0 +1,73 @@
+.myNavbar {
+    background-color: #aa8561 !important;
+    font-weight: 600 !important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2) !important;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #c8c9b5 !important;
+    margin-left: 18px !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #eceeca !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #eceeca !important;
+}
+
+.navbar-nav .nav-item .nav-link.dropdown-toggle {
+    background-color: #eceeca !important;
+    color: #a0583a !important;
+    border-radius: 50px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: #aa8561 !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: #eceeca !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #a0583a !important;
+}
+
+.myNavbar .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.brand-img {
+    display: flex !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100px !important;
+    background-color: white !important;
+    margin-left: 5px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.brand-img img {
+    width: 87% !important;
+}
+
+@media (max-width: 992px) {
+    .myNavbar {
+        text-align: center !important;
+    }
+
+    .navbar-nav .nav-item .dropdown-menu {
+        text-align: center !important;
+    }
+}

@@ -1,0 +1,30 @@
+.myBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    transition: all .5s;
+}
+
+th {
+    background-color: #a0583a !important;
+    border: 1px solid #eceeca;
+    color: #eceeca;
+    text-align: center;
+}
+
+tr {
+    border-top: none;
+}
+
+.modal-header {
+    background-color: #a0583a;
+    color: #eceeca;
+}
+
+.modal-body, .modal-footer {
+    background-color: #eceeca;
+}
+
+h3{
+    color: #7c442c;
+}

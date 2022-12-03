@@ -1,0 +1,65 @@
+.card{
+    /* width: 33%; */
+    background-color: white;
+    text-align: center;
+
+  
+}
+
+.card img{
+    width: 70%;
+}
+
+.card-title{
+    color: #ECEECA;
+    
+}
+.card-body{
+    background-color: #AA8561;
+    color: #ECEECA;
+}
+.card-header{
+    background-color: #A0583A;
+    
+}
+.card-footer{
+   background-color:  #A0583A;
+}
+tr{
+    color: #ECEECA;
+}
+.col-lg-4{
+    background-color: #AA8561;
+}
+.monyx img{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.btn-buy {
+    width: 60%;
+    color: #a0583a;
+    background-color: #eceeca;
+    border: none;
+}
+
+.btn-buy:hover {
+    background-color: #bbbca5;
+    color: #a0583a;
+}
+
+.txt-jumlah{
+    width: 30%;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 49.3% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 32.5% !important;
+    }
+}
